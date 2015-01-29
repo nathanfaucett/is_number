@@ -19,8 +19,5 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-jsbeautifier": "^0.2.7",
     "mocha": "^2.1.0"
-  },
-  "dependencies": {
-    "is_object_like": "nathanfaucett/is_object_like"
   }
 }

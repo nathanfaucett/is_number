@@ -11,8 +11,8 @@ describe("isNumber", function() {
         assert.equal(isNumber(""), false);
         assert.equal(isNumber(/./), false);
         assert.equal(isNumber(function noop() {}), false);
+        assert.equal(isNumber(Object(0)), false);
 
         assert.equal(isNumber(0), true);
-        assert.equal(isNumber(Object(0)), true);
     });
 });
