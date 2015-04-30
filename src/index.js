@@ -1,3 +1,6 @@
-module.exports = function isNumber(obj) {
+module.exports = isNumber;
+
+
+function isNumber(obj) {
     return typeof(obj) === "number" || false;
-};
+}
